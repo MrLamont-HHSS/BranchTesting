@@ -23,6 +23,7 @@ public class DNA {
 
     public DNA(double[] genes) {
         dna = genes;
+        System.out.println("this is a test");
     }
 
     public double getGene(int i) {
